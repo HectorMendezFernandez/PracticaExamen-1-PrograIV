@@ -4,11 +4,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Login</title>
-        <link rel="stylesheet" href="../../css/loginStyle.css"/>
+        <link rel="stylesheet" href="/CarritoCompras/css/loginStyle.css"/>
          <%@ include file="/presentation/Head.jsp" %>
     </head>
     <body style="background-color: gray;">
-         <%@ include file="/presentation/Header.jsp" %>
         <div class="wrapper fadeInDown">
             <div id="formContent">
                 <!-- Tabs Titles -->

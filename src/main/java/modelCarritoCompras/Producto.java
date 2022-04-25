@@ -12,11 +12,15 @@ public class Producto {
     String direccionImagen;
     float precio;
     String nombreProducto;
+    String categoria;
+    boolean oferta;
 
-    public Producto(String direccionImagen, float precio, String nombreProducto) {
+    public Producto(String direccionImagen, float precio, String nombreProducto, String categoria, boolean oferta) {
         this.direccionImagen = direccionImagen;
         this.precio = precio;
         this.nombreProducto = nombreProducto;
+        this.categoria = categoria;
+        this.oferta = oferta;
     }
 
     public String getDireccionImagen() {
@@ -31,6 +35,15 @@ public class Producto {
         return nombreProducto;
     }
 
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public boolean isOferta() {
+        return oferta;
+    }
+    
+
     public void setDireccionImagen(String direccionImagen) {
         this.direccionImagen = direccionImagen;
     }
@@ -42,6 +55,16 @@ public class Producto {
     public void setNombreProducto(String nombreProducto) {
         this.nombreProducto = nombreProducto;
     }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
+    public void setOferta(boolean oferta) {
+        this.oferta = oferta;
+    }
+    
+    
 
     @Override
     public String toString() {

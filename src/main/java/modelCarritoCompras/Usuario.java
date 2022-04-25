@@ -18,6 +18,8 @@ public class Usuario {
         this.clave = clave;
         this.tipo = tipo;
     }
+     public Usuario() {
+     }
 
     public String getUser() {
         return user;
