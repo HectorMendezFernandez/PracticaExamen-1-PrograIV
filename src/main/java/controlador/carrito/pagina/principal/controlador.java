@@ -22,7 +22,6 @@ public class controlador extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-         System.out.println("PAAAAATH: "+request.getServletPath());
         response.setContentType("text/html;charset=UTF-8");
         request.setAttribute("model", new Model()); 
         

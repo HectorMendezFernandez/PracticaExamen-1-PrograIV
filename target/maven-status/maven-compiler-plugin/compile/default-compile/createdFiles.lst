@@ -6,3 +6,4 @@ modelCarritoCompras\Usuario.class
 modelCarritoCompras\Producto.class
 modelCarritoCompras\Factura.class
 controlador\carrito\pagina\principal\Model.class
+controlador\carrito\login\Model.class

@@ -18,9 +18,9 @@
                 </div>
 
                 <!-- Login Form -->
-                <form>
-                    <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-                    <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+                <form  method="post" action="/CarritoCompras/presentation/login/login">
+                    <input type="text" id="login" class="fadeIn second" name="user" placeholder="user">
+                    <input type="text" id="password" class="fadeIn third" name="clave" placeholder="password">
                     <input type="submit" class="fadeIn fourth" value="Log In">
                 </form>
 
